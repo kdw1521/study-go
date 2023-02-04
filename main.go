@@ -1,9 +1,9 @@
 package main
 
 import (
-	study_fmt "study-go/study"
+	study_fmt "study-go/study/fmt"
 )
 
 func main() {
-	study_fmt.Study_fmt()
+	study_fmt.Clean_Buffer()
 }
