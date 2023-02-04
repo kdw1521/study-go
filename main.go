@@ -1,7 +1,9 @@
 package main
 
-import "study-go/study/operator/comparison"
+import (
+	wando_func "study-go/study/function"
+)
 
 func main() {
-	comparison.Overcome_Float_Error()
+	wando_func.Wando_Print_No(3)
 }
