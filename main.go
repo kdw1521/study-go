@@ -3,5 +3,5 @@ package main
 import "study-go/study/operator/comparison"
 
 func main() {
-	comparison.Compatison_Operator()
+	comparison.Overcome_Float_Error()
 }
