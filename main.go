@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	operator.Shift_Operator()
+	operator.Right_Shift_Operator()
 }

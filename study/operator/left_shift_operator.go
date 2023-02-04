@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func Shift_Operator() {
+func Left_Shift_Operator() {
 	var x int8 = 4
 	var y int8 = 64
 
