@@ -1,9 +1,7 @@
 package main
 
-import (
-	"study-go/study/operator"
-)
+import "study-go/study/operator/comparison"
 
 func main() {
-	operator.Right_Shift_Operator()
+	comparison.Compatison_Operator()
 }
