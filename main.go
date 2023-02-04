@@ -1,9 +1,9 @@
 package main
 
 import (
-	study_fmt "study-go/study/fmt"
+	"study-go/study/operator"
 )
 
 func main() {
-	study_fmt.Clean_Buffer()
+	operator.Shift_Operator()
 }
