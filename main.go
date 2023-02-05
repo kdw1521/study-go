@@ -1,9 +1,9 @@
 package main
 
 import (
-	wando_func "study-go/study/function"
+	wandoconst "study-go/study/wando_const"
 )
 
 func main() {
-	wando_func.Wando_Print_No(3)
+	wandoconst.Study_Const()
 }
