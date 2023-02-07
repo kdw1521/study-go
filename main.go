@@ -1,9 +1,9 @@
 package main
 
 import (
-	"study-go/study/condition"
+	"study-go/study/loop"
 )
 
 func main() {
-	condition.Switch_Fallthrough()
+	loop.Flag_For()
 }
