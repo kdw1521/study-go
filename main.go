@@ -1,9 +1,9 @@
 package main
 
 import (
-	"study-go/study/loop"
+	"study-go/study/array"
 )
 
 func main() {
-	loop.Flag_For()
+	array.Multi_Array()
 }
