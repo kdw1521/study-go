@@ -1,9 +1,7 @@
 package main
 
-import (
-	"study-go/study/array"
-)
+import wandostruct "study-go/study/wando_struct"
 
 func main() {
-	array.Multi_Array()
+	wandostruct.Wando_Struct()
 }
