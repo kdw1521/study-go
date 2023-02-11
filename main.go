@@ -1,7 +1,7 @@
 package main
 
-import wandostruct "study-go/study/wando_struct"
+import wandopointer "study-go/study/wando_pointer"
 
 func main() {
-	wandostruct.Wando_Struct()
+	wandopointer.Runner()
 }
