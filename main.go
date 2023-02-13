@@ -1,12 +1,18 @@
 package main
 
 import (
-	"fmt"
-	wandostring "study-go/study/wando_string"
+	// "fmt"
+	modulepackage "study-go/study/module_package"
+	// "github.com/guptarohit/asciigraph"
+	// "github.com/tuckersGo/musthaveGo/ch16/expkg"
 )
 
 func main() {
-	var str string = "Hello World"
-	fmt.Println(wandostring.ToUpper_String(str))
-	fmt.Println(wandostring.ToUpper2_String(str))
+	// modulepackage.PrintCustom()
+	// expkg.PrintSample()
+
+	// data := []float64{3, 4, 5, 6, 9, 7, 5, 8, 5, 10, 2, 7, 2, 5, 6}
+	// graph := asciigraph.Plot(data)
+	// fmt.Println(graph)
+	modulepackage.PrintD()
 }
