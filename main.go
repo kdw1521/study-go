@@ -1,18 +1,15 @@
 package main
 
 import (
-	// "fmt"
-	modulepackage "study-go/study/module_package"
-	// "github.com/guptarohit/asciigraph"
-	// "github.com/tuckersGo/musthaveGo/ch16/expkg"
+	wandoslice "study-go/study/wando_slice"
 )
 
 func main() {
-	// modulepackage.PrintCustom()
-	// expkg.PrintSample()
-
-	// data := []float64{3, 4, 5, 6, 9, 7, 5, 8, 5, 10, 2, 7, 2, 5, 6}
-	// graph := asciigraph.Plot(data)
-	// fmt.Println(graph)
-	modulepackage.PrintD()
+	// array := [5]int{1, 2, 3, 4, 5}
+	// slice := []int{1, 2, 3, 4, 5}
+	// wandoslice.Change_Array(array)
+	// wandoslice.Change_Slice(slice)
+	// fmt.Println(array)
+	// fmt.Println(slice)
+	wandoslice.Sort_Struct()
 }
