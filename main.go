@@ -2,49 +2,42 @@ package main
 
 import (
 	// "fmt"
-	"fmt"
-	errorhandling "study-go/study/error_handling"
+	// "math/rand"
+	"study-go/study/go_routine"
+	"sync"
+	// "time"
+	// "time"
 )
 
+var wg sync.WaitGroup
+
 func main() {
-	// line, err := errorhandling.ReadFile(errorhandling.FILENAME)
-	// if err != nil {
-	// 	err = errorhandling.WriteFile(errorhandling.FILENAME, "This is WriteFile")
-	// 	if err != nil {
-	// 		fmt.Println("파일 생성에 실패했습니다.", err)
-	// 		return
-	// 	}
-	// 	line, err = errorhandling.ReadFile(errorhandling.FILENAME)
-	// 	if err != nil {
-	// 		fmt.Println("파일 읽기에 실패했습니다.", err)
-	// 		return
-	// 	}
+	// go goroutine.PrintHangul()
+	// go goroutine.PringNumber()
+
+	// time.Sleep(3 * time.Second)
+
+	// goroutine.WG.Add(10) // 10개의 작업을 만들어주고
+	// for i := 0; i < 10; i++ {
+	// 	go goroutine.SumAtoB(1, 1000000000)
 	// }
+	// goroutine.WG.Wait()
 
-	// fmt.Println("파일 내용:", line)
+	// var wg sync.WaitGroup
 
-	// sqrt, err := errorhandling.Sqrt(-2)
-	// if err != nil {
-	// 	fmt.Printf("Error: %v\n", err)
+	// account := &goroutine.Account{Balance: 10}
+	// wg.Add(10)
+	// for i := 0; i < 10; i++ {
+	// 	go func() {
+	// 		for {
+	// 			goroutine.DepositAndWithdraw(account)
+	// 		}
+	// 		wg.Done()
+	// 	}()
 	// }
-	// fmt.Printf("Sqrt(-2)= %v\n", sqrt)
+	// wg.Wait()
 
-	// err := errorhandling.RegisterAccount("wando", "1234")
+	// goroutine.Runner(&wg)
 
-	// if err != nil {
-	// 	if errInfo, ok := err.(errorhandling.PasswordError); ok {
-	// 		fmt.Printf("%v Len:%d RequireLen: %d\n", errInfo, errInfo.Len, errInfo.RequireLen)
-	// 	}
-	// } else {
-	// 	fmt.Println("회원 가입 완료")
-	// }
-
-	// errorhandling.ReadEq("123 3")
-	// errorhandling.ReadEq("123 abc")
-
-	// errorhandling.Divide(9, 3)
-	// errorhandling.Divide(9, 0)
-
-	errorhandling.F()
-	fmt.Println("프로그램 계속 실행")
+	goroutine.Job_Runner(&wg)
 }
