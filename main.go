@@ -1,43 +1,24 @@
 package main
 
 import (
-	// "fmt"
-	// "math/rand"
-	"study-go/study/go_routine"
-	"sync"
-	// "time"
-	// "time"
+	// "study-go/study/channel"
+	"study-go/study/channel/pubsub"
 )
 
-var wg sync.WaitGroup
-
 func main() {
-	// go goroutine.PrintHangul()
-	// go goroutine.PringNumber()
+	// channel.Runner()
 
-	// time.Sleep(3 * time.Second)
+	// channel.Runner2()
 
-	// goroutine.WG.Add(10) // 10개의 작업을 만들어주고
-	// for i := 0; i < 10; i++ {
-	// 	go goroutine.SumAtoB(1, 1000000000)
-	// }
-	// goroutine.WG.Wait()
+	// channel.Runner3()
 
-	// var wg sync.WaitGroup
+	// channel.Runner4()
 
-	// account := &goroutine.Account{Balance: 10}
-	// wg.Add(10)
-	// for i := 0; i < 10; i++ {
-	// 	go func() {
-	// 		for {
-	// 			goroutine.DepositAndWithdraw(account)
-	// 		}
-	// 		wg.Done()
-	// 	}()
-	// }
-	// wg.Wait()
+	// channel.MakeCar()
 
-	// goroutine.Runner(&wg)
+	// channel.ContextRunner()
 
-	goroutine.Job_Runner(&wg)
+	// channel.ContextValueRunner()
+
+	pubsub.PubSubRunner()
 }
