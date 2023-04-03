@@ -1,24 +1,15 @@
 package main
 
 import (
-	// "study-go/study/channel"
-	"study-go/study/channel/pubsub"
+	"study-go/study/solid"
 )
 
 func main() {
-	// channel.Runner()
+	var mail = &solid.Mail{}
+	var listener solid.EventListener
 
-	// channel.Runner2()
+	listener = &solid.Alarm{}
 
-	// channel.Runner3()
-
-	// channel.Runner4()
-
-	// channel.MakeCar()
-
-	// channel.ContextRunner()
-
-	// channel.ContextValueRunner()
-
-	pubsub.PubSubRunner()
+	mail.Register(listener)
+	mail.OnRecv()
 }
