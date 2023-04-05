@@ -1,15 +1,11 @@
 package main
 
 import (
-	"study-go/study/solid"
+	"study-go/study/generic"
 )
 
 func main() {
-	var mail = &solid.Mail{}
-	var listener solid.EventListener
-
-	listener = &solid.Alarm{}
-
-	mail.Register(listener)
-	mail.OnRecv()
+	// generic.Runner()
+	// generic.Runner2()
+	generic.Runner3()
 }
